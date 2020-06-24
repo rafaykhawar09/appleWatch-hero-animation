@@ -1,5 +1,7 @@
 
-let screenHeight = 937;
+
+let screenHeight = $(window).height();
+
 
 $(window).scroll(function(){
 
