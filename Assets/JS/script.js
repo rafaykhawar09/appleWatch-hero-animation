@@ -1,28 +1,14 @@
 
-
-let screenHeight = $(window).height();
-
+let screenHeight = 937;
 
 $(window).scroll(function(){
 
-     if( $(this).scrollTop() >= screenHeight/5 ){
-          $(".watchFaces-container-wrapper").addClass("night-bkg");
-          $(".watchFaces-container-wrapper").removeClass("day-bkg");
-     }
-     else{
-          $(".watchFaces-container-wrapper").addClass("day-bkg");
-          $(".watchFaces-container-wrapper").removeClass("night-bkg");
-     }
 
+     if( $(this).scrollTop() >= screenHeight/6 )
+          $(".hero-inner").css("background-color", "transparent");
+     else
+          $(".hero-inner").css("background-color", "white");
 
-     if( $(this).scrollTop() >= screenHeight){
-          $(".watchFaces-container-wrapper").addClass("pos-abs")
-          $(".watchFaces-container-wrapper").removeClass("pos-fixed")
-     }
-     else{
-          $(".watchFaces-container-wrapper").removeClass("pos-abs")
-          $(".watchFaces-container-wrapper").addClass("pos-fixed")
-     }
 
      let angle = $(this).scrollTop()*18/100;
 

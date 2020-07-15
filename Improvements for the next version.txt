@@ -1,0 +1,12 @@
+
+Improvements
+
+# Scrolling
+	=>> Don't go for "scroll-throttling" for precise scrolling
+	
+	=>> Hijack ( a single "scroll-event" = 18deg rotation)
+		=> "Mouse Wheel"
+		=> "Up/Down Arrow Keys"
+		=> "Touch"(not sure how that will work as of 14th July, 2020)
+		=> "Page-up/down"
+	
