@@ -74,13 +74,13 @@ html, body{
           position: absolute; 
           top: 50%;
           left: 50%;
-          transform: translate(-50%, -50%) scale(.2) rotate(45deg) ;
+          transform: translate(-50%, -55%) scale(.2) rotate(45deg) ;
      }
      30%{
           position: absolute; 
           top: 50%;
           left: 50%;
-          transform: translate(-50%, -50%) scale(.2) rotate(45deg) ;
+          transform: translate(-50%, -55%) scale(.2) rotate(45deg) ;
      }
      100%{
           position: absolute; 
