@@ -41,9 +41,9 @@ html, body{
      border-radius: 50%;
 
      position: absolute;
-     top: 105%;
+     top: 50%;
      left: 50%;
-     transform: translate(-50%, -50%);
+     transform: translate(-50%, -10%);
 
      animation: zoomIn 2s ease;
      -webkit-animation: zoomIn 2s ease;
@@ -69,61 +69,28 @@ html, body{
      align-items: center;
 }
 
-@media only screen and (max-width: 425px){
-     .hero-wrapper{
-          height: 200%;
-     }
-     .watchFaces-container{
-          top: 115%;
-     }
 
-     @keyframes zoomIn{
-          0%{ 
-               position: absolute; 
-               top: 50%;
-               left: 50%;
-               transform: translate(-50%, -50%) scale(.2) rotate(45deg) ;
-          }
-          30%{
-               position: absolute; 
-               top: 50%;
-               left: 50%;
-               transform: translate(-50%, -50%) scale(.2) rotate(45deg) ;
-          }
-          100%{
-               position: absolute; 
-               top: 50%;
-               left: 50%;
-               transform: translate(-50%, -12%) scale(1) rotate(0) ;
-          }
+@keyframes zoomIn{
+     0%{ 
+          position: absolute; 
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%) scale(.2) rotate(45deg) ;
+     }
+     30%{
+          position: absolute; 
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%) scale(.2) rotate(45deg) ;
+     }
+     100%{
+          position: absolute; 
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -10%) scale(1) rotate(0) ;
      }
 }
-@media only screen and (min-width: 425px){
-     .hero-wrapper{
-          height: 200%;
-     }
 
-     @keyframes zoomIn{
-          0%{ 
-               position: absolute; 
-               top: 41%;
-               left: 50%;
-               transform: translate(-50%, -50%) scale(.2) rotate(45deg) ;
-          }
-          30%{
-               position: absolute; 
-               top: 41%;
-               left: 50%;
-               transform: translate(-50%, -50%) scale(.2) rotate(45deg) ;
-          }
-          100%{
-               position: absolute; 
-               top: 105%;
-               left: 50%;
-               transform: translate(-50%, -50%) scale(1) rotate(0) ;
-          }
-     }
-}
 
 .watchFace:nth-of-type(1){
      transform: translate(-50%, -50%) rotate(270deg) translate(55.5em) rotate(-270deg);
