@@ -80,23 +80,22 @@ html, body{
      @keyframes zoomIn{
           0%{ 
                position: absolute; 
-               top: 41%;
+               top: 50%;
                left: 50%;
-               transform: translate(-50%, -50%) scale(.2)  ;
+               transform: translate(-50%, -50%) scale(.2) rotate(45deg) ;
           }
           30%{
                position: absolute; 
-               top: 41%;
+               top: 50%;
                left: 50%;
-               transform: translate(-50%, -50%) scale(.2)  ;
+               transform: translate(-50%, -50%) scale(.2) rotate(45deg) ;
           }
           100%{
                position: absolute; 
-               top: 115%;
+               top: 50%;
                left: 50%;
-               transform: translate(-50%, -50%) scale(1)  ;
+               transform: translate(-50%, -10%) scale(1) rotate(0) ;
           }
-          /* rotate(0) */
      }
 }
 @media only screen and (min-width: 425px){
