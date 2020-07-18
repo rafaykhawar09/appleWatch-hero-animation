@@ -3,8 +3,10 @@ let screenHeight = ($(window).height());
 
 $(document).ready(function(){
 
-     if( $(window).width() < 425 )
-          $("html").css("--watchFaces-container-top", "115%");
+     let root = document.documentElement;
+
+     if( $(window).width() <= 425)
+          root.style.setProperty('--watchFaces-container-top', "115%")
 })
 
 $(window).scroll(function(){
