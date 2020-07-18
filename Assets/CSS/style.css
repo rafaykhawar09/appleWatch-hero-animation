@@ -48,6 +48,12 @@ html, body{
      animation: zoomIn 2s ease;
 }
 
+@media only screen and (max-width: 425px){
+     .hero-wrapper{
+          height: 200%;
+     }
+}
+
 .watchFace{
      width: 209px;
      height: 245px;
