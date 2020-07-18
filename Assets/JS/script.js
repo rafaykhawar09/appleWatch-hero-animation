@@ -1,6 +1,12 @@
 
 let screenHeight = ($(window).height());
 
+$(document).ready(function(){
+
+     if( $(window).width() < 425 )
+          $("html").css("--watchFaces-container-top", "115%");
+})
+
 $(window).scroll(function(){
 
 
