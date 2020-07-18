@@ -1,13 +1,13 @@
 
 let screenHeight = ($(window).height());
 
-$(document).ready(function(){
+// $(document).ready(function(){
 
-     let root = document.documentElement;
+//      let root = document.documentElement;
 
-     if( $(window).width() <= 425)
-          root.style.setProperty('--watchFaces-container-top', "115%")
-})
+//      if( $(window).width() <= 425)
+//           root.style.setProperty('--watchFaces-container-top', "115%")
+// })
 
 $(window).scroll(function(){
 
